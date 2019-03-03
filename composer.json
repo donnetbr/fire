@@ -1,0 +1,43 @@
+{
+    "name" : "donnetbr/fire",
+    "description" : "PHP templating engine for Codefire",
+    "authors" : [{
+            "name" : "Donnet do Brasil",
+            "email" : "dev@donnet.host"
+        }
+    ],
+    "keywords" : [
+        "php",
+        "codefire",
+        "templating",
+        "js template php"
+    ],
+    "homepage" : "https://github.com/donnetbr/fire",
+    "license" : "MIT",
+    "require" : {
+        "php" : "^7.0||^7.3",
+        "ext-dom": "*",
+        "masterminds/html5" : "^2.1.2",
+        "twig/twig" : "^1.28||^2.0",
+        "symfony/event-dispatcher" : "^2.1||^3.0||^4.0"
+    },
+    "require-dev" : {
+        "phpunit/phpunit" : "^4.1.4",
+        "friendsofphp/php-cs-fixer": "^2.2"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Donnetbr\\Fire\\" : "src/"
+        }
+    },
+    "autoload-dev" : {
+        "psr-4" : {
+            "Donnetbr\\Fire\\Tests\\" : "tests/Tests"
+        }
+    },
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "1.x-dev"
+        }
+    }
+}
