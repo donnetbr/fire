@@ -14,7 +14,7 @@ use Symfony\Component\EventDispatcher\EventDispatcher;
  */
 class Fire
 {
-    const NS = 'urn:goetas:twital';
+    const NS = 'urn:donnetbr:fire';
 
     protected $extensionsInitialized = false;
 
